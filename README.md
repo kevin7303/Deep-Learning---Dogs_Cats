@@ -67,7 +67,7 @@ Basic Convolutional Neural Network for Binary Image Classification
 ## Results
 ![alt text](https://github.com/kevin7303/Deep-Learning---Dogs_Cats/blob/master/Accuracy%20Graph.png "Loss and Accuracy - Train vs Validation")
 
-*Early Stopping lead to the Model being interrupted at the 30th Epoch
+*Early Stopping led to the Model being interrupted at the 30th Epoch
 
 * Highest Validation Accuracy  0.9825721383094788
 * Last Epoch Validation Accuracy  0.9443109035491943
