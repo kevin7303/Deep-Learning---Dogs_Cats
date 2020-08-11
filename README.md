@@ -23,36 +23,36 @@ Basic Convolutional Neural Network for Binary Image Classification
 
 ## Image Generator and Transformations
 
-rotation_range=15,
-rescale=1./255,
-shear_range=0.1,
-zoom_range=0.2,
-horizontal_flip=True,
-width_shift_range=0.1,
-height_shift_range=0.1,
-validation_split=0.2
+* rotation_range=15,
+* rescale=1./255,
+* shear_range=0.1,
+* zoom_range=0.2,
+* horizontal_flip=True,
+* width_shift_range=0.1,
+* height_shift_range=0.1,
+* validation_split=0.2
 
 
 ## Model Building 
 # Convolutional Neural Network Architecture
-Input Layer
-Convolutional Layer - ReLU Activation
+1 Input Layer
+2 Convolutional Layer - ReLU Activation
 
-Second Convolutional Layer - ReLU Activation
-Batch Normalization
-MaxPooling - Size 2,2
-Dropout Layer with 25% Drop
+3 Second Convolutional Layer - ReLU Activation
+4 Batch Normalization
+5 MaxPooling - Size 2,2
+6 Dropout Layer with 25% Drop
 
-Third Convolutional Layer - ReLU Activation
-Batch Normalization
-MaxPooling - Size 2,2
-Dropout Layer with 25% Drop
+7 Third Convolutional Layer - ReLU Activation
+8 Batch Normalization
+9 MaxPooling - Size 2,2
+10 Dropout Layer with 25% Drop
 
-Flattening Layer
-Dense (Fully Connected) Layer - ReLU Activation
-Batch Normalization
-Dropout Layer with 50% Drop
-Output Layer - Dense (Fully Connected) with 1 Output - Sigmoid Activation 
+11 Flattening Layer
+12 Dense (Fully Connected) Layer - ReLU Activation
+13 Batch Normalization
+14 Dropout Layer with 50% Drop
+15 Output Layer - Dense (Fully Connected) with 1 Output - Sigmoid Activation 
 
 # CNN Compile
 Loss - Binary CrossEntropy
