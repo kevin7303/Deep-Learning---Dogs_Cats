@@ -70,8 +70,8 @@ Batch Size = 16
 ![alt text](https://github.com/kevin7303/Deep-Learning---Dogs_Cats/blob/master/Accuracy%20Graph.png "Loss and Accuracy - Train vs Validation")
 
 
-Highest Validation Accuracy  0.9825721383094788
-Last Epoch Validation Accuracy  0.9443109035491943
+*Highest Validation Accuracy  0.9825721383094788
+*Last Epoch Validation Accuracy  0.9443109035491943
 __________________________________________________________
-Highest Training Accuracy  0.8757500052452087
-Last Epoch Training Accuracy  0.8726500272750854
+*Highest Training Accuracy  0.8757500052452087
+*Last Epoch Training Accuracy  0.8726500272750854
