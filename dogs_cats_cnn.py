@@ -129,7 +129,7 @@ loss = model.fit(
 )
 
 #Save model and weights
-model.save_weights("model.h5")
+model.save_weights("weights.h5")
 model.save('my_model')
 
 #Plot Loss / Accuracy of Train and Validation set 
