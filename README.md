@@ -35,34 +35,34 @@ Basic Convolutional Neural Network for Binary Image Classification
 
 ## Model Building 
 # Convolutional Neural Network Architecture
-1 Input Layer
-2 Convolutional Layer - ReLU Activation
+* Input Layer
+* Convolutional Layer - ReLU Activation
 
-3 Second Convolutional Layer - ReLU Activation
-4 Batch Normalization
-5 MaxPooling - Size 2,2
-6 Dropout Layer with 25% Drop
+* Second Convolutional Layer - ReLU Activation
+* Batch Normalization
+* MaxPooling - Size 2,2
+* Dropout Layer with 25% Drop
 
-7 Third Convolutional Layer - ReLU Activation
-8 Batch Normalization
-9 MaxPooling - Size 2,2
-10 Dropout Layer with 25% Drop
+* Third Convolutional Layer - ReLU Activation
+* Batch Normalization
+* MaxPooling - Size 2,2
+* Dropout Layer with 25% Drop
 
-11 Flattening Layer
-12 Dense (Fully Connected) Layer - ReLU Activation
-13 Batch Normalization
-14 Dropout Layer with 50% Drop
-15 Output Layer - Dense (Fully Connected) with 1 Output - Sigmoid Activation 
+* Flattening Layer
+* Dense (Fully Connected) Layer - ReLU Activation
+* Batch Normalization
+* Dropout Layer with 50% Drop
+* Output Layer - Dense (Fully Connected) with 1 Output - Sigmoid Activation 
 
 # CNN Compile
-Loss - Binary CrossEntropy
-Metric - Accuracy
-Optimizer - adam
+* Loss - Binary CrossEntropy
+* Metric - Accuracy
+* Optimizer - adam
 
 # Fitting Parameters
-Epochs = 50
-Callback - EarlyStop - Patience = 10
-Batch Size = 16
+* Epochs = 50
+* Callback - EarlyStop - Patience = 10
+* Batch Size = 16
 
 ## Results
 ![alt text](https://github.com/kevin7303/Deep-Learning---Dogs_Cats/blob/master/Accuracy%20Graph.png "Loss and Accuracy - Train vs Validation")
