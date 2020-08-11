@@ -65,8 +65,6 @@ Callback - EarlyStop - Patience = 10
 Batch Size = 16
 
 ## Results
-
-#Graph
 ![alt text](https://github.com/kevin7303/Deep-Learning---Dogs_Cats/blob/master/Accuracy%20Graph.png "Loss and Accuracy - Train vs Validation")
 
 
